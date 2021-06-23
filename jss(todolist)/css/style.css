@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 500px;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conatiner{
+    width: 25%;
+    height: 85%;
+    background: tomato;
+    border-radius: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 1px 1px 5px black;
+}
+
+.inputdiv{
+    color: white;
+    height: 25%;
+    
+    background:rgba(255, 99, 71, 0.51);
+    padding: 20px 20px 5px 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+.input{
+    
+    width: 70%;
+
+}
+.input input{
+    border:none;
+    background: inherit;
+    border-left: 0px solid white;
+    padding-left: 5px;
+    margin-top:10px ;
+    height: 30px;
+    color: white;
+    outline: none;
+    transition: 1s;
+}
+.conatiner:hover input{
+    border-left: 5px solid white;
+}
+.input input::placeholder{
+    color: white;
+}
+.adddiv{
+    width: 30%; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.adddiv span{
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 2px black;
+    transition: 0.1s;
+    position: relative;
+    bottom: 0px;
+}
+.adddiv span:hover{
+
+    box-shadow: 0px 0px 0px black;
+    bottom: -1px;
+
+}
+.adddiv i{
+
+   color: tomato;
+
+}
+.listdiv{
+    height:86%;
+   border-radius:18px ;
+   background: rgba(255, 255, 255,1);
+   border-radius:30px;
+   position: relative;
+   top: -25%;
+   transition: 1s;
+}
+.conatiner:hover .listdiv{
+    top: 0;
+}
+.listdiv {
+    padding: 30px 10px;
+
+}
+
+.listdiv ul li{
+    height: 50px;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+.listdiv ul li:hover{
+    background: rgb(226, 225, 221);
+}
+.listdiv ul li:hover .icon i {
+    display: block;
+}
+.list{
+    color: tomato;
+    padding: 10px;
+    width: 80%;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.date{
+    font-size: 10px;
+}
+.icon{
+
+    padding: 10px 10px 10px 0px;
+    width: 20%;
+    box-sizing: border-box;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon i {
+    display: none;
+}
+.icon i:hover{
+    font-size: 20px;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.circle1{
+    width: 400px;
+    height: 400px;
+    background: tomato;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -200px;
+    left: 300px;
+    z-index: 0;
+}
+
+.circle2{
+    width: 300px;
+    height:300px;
+    border:50px solid tomato;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -200px;
+    left: -200px;
+}
+
+.circle3{
+    width: 600px;
+    height: 600px;
+    background: tomato;
+    border-radius: 50%;
+    position: absolute;
+    right: -400px;
+    top: -300px;
+    z-index: 0;
+}
+
+.circle4{
+    width: 300px;
+    height:300px;
+    border:50px solid tomato;
+    border-radius: 50%;
+    position: absolute;
+    top: -200px;
+    left: -200px;
+}
+
+.circle5{
+    width: 300px;
+    height:300px;
+    border:50px solid tomato;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -200px;
+    right: -200px;
+}

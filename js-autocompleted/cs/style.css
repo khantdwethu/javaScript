@@ -1,0 +1,53 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+
+}
+body{
+    height: 100vh;
+}
+.container{
+    background-color: #40514e;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.form-control{
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+h1{
+    color: white;
+    font-weight:lighter;
+    font-size: 250%;
+    margin: 20px;
+}
+.listdiv{
+    width: 100%;
+    height:300px;
+    overflow-y: scroll;
+    background-color: white;
+    display: none;
+}
+.lsitdiv div{
+    height: 5px;
+}
+.listdivitem{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.listdivitem img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.active{
+    background-color: lightseagreen;
+    color: white;
+}
+

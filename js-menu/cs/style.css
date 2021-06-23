@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    overflow: hidden;
+}
+.container{ 
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.conatiner-center{
+    position: relative;
+    width: 100%;
+
+}
+.menuItem{
+    padding: 10px 69.7px;
+    color: white;
+    background-color: orange;
+    user-select: none;
+    cursor: pointer;
+    background-color: #0099FF;
+
+    /* transition: all 0.4s ease-in; */
+}
+.bar{
+    display: block;
+    background-color: rgb(93, 93, 174);
+    width: 150px;
+    height: 5px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
+}
+footer{
+    background-image: url("../wave\ \(1\).png");
+    height: 150px;
+    width: 100%;
+    margin-top: 290px;}
+.p{
+    overflow: hidden;
+    background-position: bottom;
+    height: 439px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    word-wrap: nowrap;
+    background: grey;
+    position: absolute;
+    z-index: -1;
+}
+h1{
+    display: none;
+    transition: all 5s ease-in;
+    color: white;
+    font-weight: 50;
+    font-size: 30px;
+
+}
+.pActive{
+    z-index: 4;
+    display: block;
+    transform: translateX(350px);
+
+}
+
+.clickActive {
+    background-color: #0099ffcd;
+    color: rgb(93, 93, 174);
+}
